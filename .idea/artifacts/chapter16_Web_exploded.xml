@@ -1,0 +1,75 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="chapter16:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/chapter16_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="chapter16/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chapter16" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="chapter16" />
+          <element id="library" level="module" name="commons-dbutils-1.4.jar" module-name="chapter16" />
+          <element id="library" level="module" name="commons-fileupload-1.2.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="commons-io-2.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="commons-logging-1.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="druid-1.1.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="fastjson-1.1.22.jar" module-name="chapter16" />
+          <element id="library" level="module" name="jackson-annotations-2.9.5.jar" module-name="chapter16" />
+          <element id="library" level="module" name="jackson-core-2.9.7.jar" module-name="chapter16" />
+          <element id="library" level="module" name="jackson-databind-2.9.7.jar" module-name="chapter16" />
+          <element id="library" level="module" name="jstl.jar" module-name="chapter16" />
+          <element id="library" level="module" name="mail.jar" module-name="chapter16" />
+          <element id="library" level="module" name="mybatis-3.4.2.jar" module-name="chapter16" />
+          <element id="library" level="module" name="mybatis-spring-1.3.1.jar" module-name="chapter16" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.10-bin.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-aop-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-aspects-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-beans-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-context-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-core-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-expression-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-jdbc-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-test-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-tx-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-web-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="spring-webmvc-5.0.8.RELEASE.jar" module-name="chapter16" />
+          <element id="library" level="module" name="standard.jar" module-name="chapter16" />
+          <element id="library" level="module" name="ValidateCode.jar" module-name="chapter16" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit4" module-name="chapter16" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ValidateCode.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.1.22.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.9.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activation.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
