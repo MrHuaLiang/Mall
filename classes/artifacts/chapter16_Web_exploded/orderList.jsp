@@ -16,6 +16,9 @@
 	function changeStatus(orderId){
 		location.href="${pageContext.request.contextPath}/changeStatus?oid="+orderId;
 	}
+	function comment(orderId){
+		location.href="${pageContext.request.contextPath}/comment?oid="+orderId;
+	}
 </script>
 </head>
 <body style="background-color:#f5f5f5">
@@ -67,6 +70,9 @@
 						<button type="button" class="btn btn-danger btn-sm" onclick="showOrder('${order.id}')">订单详情</button>
 						<c:if test="${order.flag eq 3 }">
 							<button type="button" class="btn btn-warning btn-sm" onclick="changeStatus('${order.id}')">确认收货</button>
+						</c:if>
+						<c:if test="${order.flag eq 4 }">
+							<button type="button" class="btn btn-warning btn-sm" onclick="comment('${order.id}')">去评价</button>
 						</c:if>
 					</th>
 				</tr>

@@ -32,8 +32,10 @@ public class GoodsController {
 	@RequestMapping("addGoods")
 	public String save(MultipartFile file, Goods goods, HttpServletRequest request)
 			throws IllegalStateException, IOException {
+		//图片上传后是保存在服务器的，这里就是你在服务器上保存的路径
 		File dir = FileUtils.createDir("C:\\Users\\11725\\Desktop\\chapter16\\web\\fmwimages");
 //		File dir = FileUtils.createDir(request.getServletContext().getRealPath("/"));
+		//目标文件
 		File desFile = new File(dir, FileUtils.createFileName(file.getOriginalFilename()));
 		file.transferTo(desFile);
 		goods.setPicture(dir.getName() + "/" + desFile.getName());

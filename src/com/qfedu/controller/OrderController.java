@@ -17,6 +17,7 @@ import com.qfedu.domain.User;
 import com.qfedu.service.CartService;
 import com.qfedu.service.OrderService;
 import com.qfedu.service.UserAddressService;
+//增加了收货后的订单状态变化
 @Controller
 public class OrderController {
 	@Autowired
@@ -114,5 +115,16 @@ public class OrderController {
 	public String sendOrder(String oid, Model model) {
 		 service.update(oid,3);
 		return "redirect:getAllOrder";
+	}
+
+	@RequestMapping("changeStatus")
+	public String changeStatus(String oid,Model model){
+		service.update(oid,4);
+		return "redirect:orderList";
+	}
+	//后续完善评价功能
+	@RequestMapping("comment")
+	public String comment(String oid){
+		return "comment";
 	}
 }

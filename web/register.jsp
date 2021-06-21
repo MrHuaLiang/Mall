@@ -39,7 +39,7 @@
 		});
 	})
 </script>
-<title>锋迷网-注册</title>
+<title>小米商城-注册</title>
 </head>
 <body>
 	<div class="regist">
@@ -47,7 +47,7 @@
 			<div class="regist_top">
 				<div class="left fl"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;加入我们</div>
 				<div class="right fr">
-					<a href="index.jsp" target="_black">锋迷网</a>
+					<a href="index.jsp" target="_black">小米商城</a>
 				</div>
 				<div class="clear"></div>
 				<div class="xian center"></div>
@@ -71,7 +71,7 @@
 								class="form-control col-sm-10" placeholder="请输入密码……" />
 						</div>
 						<div class="col-sm-2">
-						<p class="text-danger"><span id="helpBlock" class="help-block ">请不输入6位以上字符</span></p>
+						<p class="text-danger"><span id="helpBlock" class="help-block ">请输入6位以上字符</span></p>
 						</div>
 					</div>
 					<div class="form-group">

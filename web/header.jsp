@@ -33,9 +33,9 @@
  <div id="top">
     	<div id="topdiv">
             <span>
-                <a href="index.jsp" id="a_top" target="_blank">锋迷网</a>
+                <a href="index.jsp" id="a_top" target="_blank">小米商城</a>
                 <li>|</li>
-                <a href="" id="a_top">锋迷网网页版</a>
+                <a href="" id="a_top">小米商城网页版</a>
                 <li>|</li>
                 <a href="" id="a_top">问题反馈</a>
             </span>
@@ -62,7 +62,7 @@
 <table style="height:100px;width:86%" align="center">
 	<tr>
 	<td>
-		<img id="logo" src="image/logo.png" width="200px" height="60px"/>
+		<img id="logo" src="image/mistore_logo.png" width="200px" height="60px"/>
 	</td>
 	<td>
 		<p id="goodsType" style="padding:10px;margin-left: 20px"></p>

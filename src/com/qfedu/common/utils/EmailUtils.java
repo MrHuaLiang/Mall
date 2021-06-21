@@ -18,7 +18,7 @@ public class EmailUtils {
 	public static void sendEmail(User user){
 		//邮箱
 		String myAccount = "mrhualiang@163.com";
-		//授权码
+		//授权码(非密码)
 		String myPass = "FPDZHZTYVWVHQCNX";
 		//邮箱服务器
 		String SMTPHost = "smtp.163.com";
@@ -38,7 +38,6 @@ public class EmailUtils {
 		MimeMessage message = createMsg(session,myAccount,user);
 		//4发送信息操作
 		try {
-			
 			Transport tran = session.getTransport();
 			//连接
 			tran.connect(myAccount, myPass);
@@ -47,7 +46,6 @@ public class EmailUtils {
 			//关闭
 			tran.close();
 		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -78,7 +76,6 @@ public class EmailUtils {
 			//保存
 			message.saveChanges();
 		} catch (UnsupportedEncodingException | MessagingException | UnknownHostException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return message;

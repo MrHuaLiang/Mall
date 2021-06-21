@@ -34,7 +34,7 @@ public class OrderServiceImpl implements OrderService{
 			detail.setGid(cds.get(i).getGid());
 			detail.setOid(oid);
 			detail.setNum(cds.get(i).getNum());
-			detail.setMoney(cds.get(i).getMoney()*100);
+			detail.setMoney(cds.get(i).getMoney());
 			dao.insertDetail(detail);
 			sum+=cds.get(i).getMoney();
 		}
@@ -52,8 +52,14 @@ public class OrderServiceImpl implements OrderService{
 	@Override
 	public boolean update(String oid, int flag) {
 		// TODO Auto-generated method stub
-		return dao.update(oid, flag)>0;
+		return dao.update(oid, flag) > 0;
 	}
+
+//	@Override
+//	public boolean update(String oid) {
+//		return dao.update(oid,4) > 0;
+//	}
+
 	//查询用户的所有订单
 	@Override
 	public List<Order> queryByUid(int uid) {

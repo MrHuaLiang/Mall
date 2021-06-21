@@ -26,6 +26,7 @@
 					<p class="text-info" style="font-size: 20px;">注册成功 别忘记激活!</p>
 					<a class="btn btn-danger" href="http://www.hao123.com/mail" target="_blank">现在激活</a>
 					<a class="btn btn-default" href="${pageContext.request.contextPath }/index.jsp" target="_blank">返回主页</a>
+					<button >重新发送邮件</button>
 			</div>
 		</div>
 	</div>

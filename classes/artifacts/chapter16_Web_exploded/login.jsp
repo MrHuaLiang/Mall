@@ -9,7 +9,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
-<title>锋迷网-登陆</title>
+<title>小米商城-登陆</title>
 </head>
 <body style="background-image: url('image/qf.jpg')">
 	<div class="regist" style="height: 360px">
@@ -17,7 +17,7 @@
 			<div class="regist_top">
 				<div class="left fl"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;欢迎登录</div>
 				<div class="right fr">
-					<a href="index.jsp" target="_black">锋迷网</a>
+					<a href="index.jsp" target="_black">小米商城</a>
 				</div>
 				<div class="clear"></div>
 				<div class="xian center"></div>
@@ -25,6 +25,7 @@
 			<div class="center-block" style="margin-top: 80px;">
 				<form class="form-horizontal" action="userlogin" method="post">
 					<div class="form-group">
+						<div style="color:red">${loginMsg}</div>
 						<label class="col-sm-2 control-label">用户名：</label>
 						<div class="col-sm-8" style="width: 40%">
 							<input type="text" id="username" name="username" class="form-control col-sm-10"
@@ -45,14 +46,13 @@
 						</div>
 					</div>
 					<hr>
-					<div>${loginMsg}</div>
+
 					<div class="form-group">
 						<div class="col-sm-7 col-sm-push-2">
 							<input id="registerBtn" type="submit" value="登录" class="btn btn-primary  btn-lg" style="width: 200px;"/> &nbsp; &nbsp;
 							<input type="reset" value="重置" class="btn btn-default  btn-lg" style="width: 200px;"  />
 						</div>
 					</div>
-<%--					<div>${loginMsg}</div>--%>
 				</form>
 			</div>
 		</div>

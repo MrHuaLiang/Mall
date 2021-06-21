@@ -11,7 +11,7 @@
 	    <link href="${pageContext.request.contextPath }/css/bootstrap.min.css" rel="stylesheet">
 	    <script src="${pageContext.request.contextPath }/js/jquery.min.js"></script>
 	    <script src="${pageContext.request.contextPath }/js/bootstrap.min.js"></script>
-		<title>锋迷网-后台登录</title>
+		<title>小米商城-后台登录</title>
 		<script type="text/javascript">
 			$(function(){
 				$("#eye").click(function(){
@@ -41,7 +41,7 @@
 <div id="main" class="panel panel-primary">
 	<div class="panel-heading">
 		<div class="panel-title">
-			锋迷网-后台登录
+			小米商城-后台登录
 		</div>
 	</div>
 	<div class="panel-body">

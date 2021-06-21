@@ -13,17 +13,19 @@ import com.qfedu.domain.CartDetail;
 import com.qfedu.domain.Order;
 public interface OrderService {
 	//下单
-	public boolean save(String oid, int uid, int uaid);
+	boolean save(String oid, int uid, int uaid);
 	//直接下单
-	public boolean insertDirect(int uid,String oid,int uaid,CartDetail cd);
+	boolean insertDirect(int uid,String oid,int uaid,CartDetail cd);
 	// 修改订单状态
-	public boolean update(String oid, int flag);
+	boolean update(String oid, int flag);
+//	//修改订单状态(确认收货)
+//	boolean update(String oid);
 	// 查询订单列表
-	public List<Order> queryByUid(int uid);
+	List<Order> queryByUid(int uid);
 	// 查询详情
-	public ViewOrder queryOrderDetailById(String oid);
+	ViewOrder queryOrderDetailById(String oid);
 	// 查询全部订单
-	public List<Order> queryAll();
+	List<Order> queryAll();
 	//根据用户姓名和订单的支付状态查询订单（admin）
 	List<Order> selectByNameAndFlag(String username,Integer flag);
 	//删除订单（admin）

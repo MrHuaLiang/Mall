@@ -3,6 +3,8 @@
 */
 package com.qfedu.service.impl;
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.qfedu.common.vo.ViewCart;

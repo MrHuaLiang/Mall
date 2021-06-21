@@ -12,10 +12,10 @@ import com.qfedu.service.CartService;
 public class CartController {
 	@Autowired
 	private CartService cartService;
-	//新增购物车
+	//商品加入购物车
 	@RequestMapping("addCart")
 	public String add(int gid,double price,HttpSession session) {
-		Goods goods=new Goods();
+		Goods goods = new Goods();
 		goods.setId(gid);
 		goods.setPrice(price);
 		if(cartService.add(((Cart)session.getAttribute("cart")).getId(), goods, 1)) {
@@ -26,6 +26,7 @@ public class CartController {
 			return "index";
 		}
 	}
+
 	//新增购物车
 	@RequestMapping("getCart")
 	public String get(HttpServletRequest req) {
@@ -34,6 +35,7 @@ public class CartController {
 		//转发
 		return "cart";
 	}
+
 	//购物车删除商品
 	@RequestMapping("clearCart")
 	public String clearCart(HttpServletRequest req,int gid) {

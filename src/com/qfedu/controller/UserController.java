@@ -33,7 +33,7 @@ public class UserController {
         if (!StrUtils.empty(username, password)) {
             User user = userService.getUserByName(username);
             if (user != null) {
-                // 校验密码
+                // 校验密码及身份
                 if (user.getPassword().equals(MD5Utils.md5(password)) && user.getRole() == 1) {
                     // 正确
                     // 记录登录信息到会话中
