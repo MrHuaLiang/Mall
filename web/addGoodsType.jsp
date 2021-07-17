@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap.min.css" />
 <script src="${pageContext.request.contextPath }/js/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/bootstrap.min.js"></script>
-<title>锋迷网-添加商品类型</title>
+<title>小米商城-添加商品类型</title>
 </head>
 <body>
 <div style="width:98%;margin-left: 1%;">

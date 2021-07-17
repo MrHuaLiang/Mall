@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>锋迷网-会员列表</title>
+<title>小米商城-会员列表</title>
 <link href="${pageContext.request.contextPath }/css/bootstrap.min.css" rel="stylesheet">
 <script src="${pageContext.request.contextPath }/js/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/bootstrap.min.js"></script>

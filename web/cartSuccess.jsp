@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
-<title>锋迷网-购物车添加成功</title>
+<title>小米商城-购物车添加成功</title>
 </head>
 <body>
 <%@ include file="header.jsp" %>

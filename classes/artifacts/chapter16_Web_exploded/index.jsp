@@ -8,7 +8,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<title>锋迷网</title>
+<title>小米商城</title>
 </head>
 <body>
 	<%@ include file="header.jsp"%>

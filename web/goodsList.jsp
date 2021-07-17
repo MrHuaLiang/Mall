@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>锋迷网-商品列表页</title>
+<title>小米商城-商品列表页</title>
 </head>
 <body>
 	<%@ include file="header.jsp"%>

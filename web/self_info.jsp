@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="js/bootstrap.min.css" />
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<title>锋迷网-个人中心</title>
+<title>小米商城-个人中心</title>
 <script type="text/javascript">
 	function deleteAddr(id){
 		var res = confirm("是否删除");

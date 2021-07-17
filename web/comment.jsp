@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>锋迷网-在线支付</title>
+<title>小米商城-在线支付</title>
 </head>
 <body>
 <%@ include file="header.jsp" %>

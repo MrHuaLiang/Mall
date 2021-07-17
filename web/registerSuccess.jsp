@@ -9,7 +9,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/login.css">
-<title>锋迷网-注册成功</title>
+<title>小米商城-注册成功</title>
 </head>
 <body>
 	<div class="regist">

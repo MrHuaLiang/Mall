@@ -11,7 +11,7 @@
 <script src="${pageContext.request.contextPath }/js/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/DatePicker.js"></script>
-<title>锋迷网-商品添加</title>
+<title>小米商城-商品添加</title>
 </head>
 <body>
 	<div class="row" style="margin-left: 20px;">

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>锋迷网-在线支付</title>	
+	<title>小米商城-在线支付</title>
 	<script type="text/javascript">
 		function tz() {
 			location.href="getOrderList";

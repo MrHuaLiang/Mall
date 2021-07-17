@@ -11,7 +11,7 @@
 	<%@ include file="header.jsp"%>
 	<div style="margin: 0 auto; width: 90%;">
 		<ol class="breadcrumb">
-			<li><a href="#">锋迷网</a></li>
+			<li><a href="#">小米商城</a></li>
 			<li class="active"><a
 				href="getGoodsListByTn?tn=${goods.typeName}">${goods.typeName}</a></li>
 		</ol>
