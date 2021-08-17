@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import redis.clients.jedis.Jedis;
 
-@PropertySource(value = {"classpath:middleware.properties",}, encoding = "utf-8")
-@Configuration
+//@PropertySource(value = {"classpath:middleware.properties",}, encoding = "utf-8")
+//@Configuration
 public class RedisConfig {
     @Value("${redis.host}")
     private String host;
@@ -18,7 +18,7 @@ public class RedisConfig {
     @Value("${redis.pwd}")
     private String pwd;
 
-    @Bean("jedis")
+    //@Bean("jedis")
     public Jedis jedis(){
         Jedis jedis = new Jedis(host, Integer.parseInt(port));
         jedis.auth(pwd);

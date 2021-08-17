@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-@PropertySource(value = {"classpath:middleware.properties",}, encoding = "utf-8")
-@Configuration
+//@PropertySource(value = {"classpath:middleware.properties",}, encoding = "utf-8")
+//@Configuration
 public class RabbitMqConfig {
     @Value("${rabbitmq.host}")
     private String host;

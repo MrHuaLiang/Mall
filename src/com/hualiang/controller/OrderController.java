@@ -34,8 +34,8 @@ public class OrderController {
     private CartService cartService;
     @Autowired
     Jedis jedis;
-    @Autowired
-    Channel channel;
+//    @Autowired
+//    Channel channel;
 
     // 下单
     @RequestMapping("addOrder")
@@ -49,11 +49,10 @@ public class OrderController {
         if (aid == null) {
             return "self_info";
         }
-        if (!jedis.exists(key)) {
-            jedis.psetex(key, 1000, user.getEmail());
-        } else {
-            return "index";
-        }
+//        String s = jedis.psetex(key, 1000, user.getEmail());
+//        if(!"OK".equals(s)){
+//            return "order";
+//        }
         String oid = RandomUtils.createOrderId();
         if (t == 1) {// 直接下单
             res = service.insertDirect(user.getId(), oid, aid, (CartDetail) session.getAttribute("direct"));

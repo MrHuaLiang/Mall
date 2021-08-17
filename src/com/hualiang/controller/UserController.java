@@ -1,6 +1,8 @@
 package com.hualiang.controller;
 
 import java.util.List;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -65,7 +67,12 @@ public class UserController {
             // 新增成功
             session.setAttribute("acode", acode);
             // 发送激活码
-            EmailUtils.sendEmail(user);
+            Register register = new Register(user);
+
+            Executor pool = Executors.newFixedThreadPool(10);
+
+            pool.execute(register);
+
             return "registerSuccess";
         } else {
             model.addAttribute("registerMsg", "服务器开小差，请稍后再来");
